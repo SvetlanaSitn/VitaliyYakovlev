@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="htpps://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://jqueryui.com//resources/demos/style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+  
+   
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 250px; height: 250px; padding: 0.5em; float: left; margin: 10px; }
+  </style>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+    $( "#droppable" ).droppable({
+      drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Dropped!" );
+      }
+    });
+  } );
+  </script>
+  
+  <section id="slider_bl">
+	<div class="wrapper">
+	  <input checked type=radio name="slider" id="slide1" />
+	  <input type=radio name="slider" id="slide2" />
+	  <input type=radio name="slider" id="slide3" />
+	  <input type=radio name="slider" id="slide4" />
+	  <div class="slider-wrapper">
+	    <div class=inner>
+	      <article>
+	        <div class="info top-left">
+	          </div>
+	        <img src="https://provsehsobak.ru/wp-content/uploads/2016/03/anons.jpg" height="400px" width="600px" ><h4><p><font size="5" color="black" face="Arial"><p>Немецкая овчарка — порода собак, изначально использовалась в качестве</p> пастушьей и служебно-розыскной собаки.</font></p> </h4>
+	      </article>
+	      <article>
+	        <div class="info bottom-right">
+	          </div>
+              <img src="https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild6365-3766-4338-b431-616631373037__960.jpg" height="400px" width="600px"> <font color="black"><h4>Доберма́н — порода короткошёрстных служебных собак,<p> выведенная в городе Апольда в конце XIX века Карлом Фридрихом Луисом Доберманом,</p> названа в честь своего создателя.</h4></font>
+	      </article>
+	      <article>
+	        <div class="info bottom-left">
+	          </div>
+	        <img src="https://www.belanta.vet/vet-blog/wp-content/uploads/2018/05/sobaka-porody-lajka_05.jpg" height="400px" width="600px">
+	        <font color="black"><h4>За́падносиби́рская ла́йка — порода собак, универсальная охотничья лайка, самая многочисленная из лаек.Происходит <p>от аборигенных лаек таёжных районов Западной Сибири, сформирована как заводская порода в середине XX века</p></h4></font>
+	      </article>
+	      <article>
+	        <div class="info top-right">
+	       </div>
+	        <img src="https://s1.stc.all.kpcdn.net/putevoditel/projectid_103889/images/tild3235-3630-4265-b535-383563643738__20160509_gaf_u40_523.jpg" height="400px" width="600px">
+	        <font color="black"><h4><p>Самое́дская соба́ка — одна из древнейших пород собак. Относится к примитивным породам. По одной из версий,</p> самоед ведёт происхождение от ненецкой лайки. В настоящее время существует 7 стандартов породы самоед</h4></font>
+	      </article>
+	    </div>
+	  </div>
+	  <div class="slider-prev-next-control">
+	    <label for=slide1></label>
+	    <label for=slide2></label>
+	    <label for=slide3></label>
+	    <label for=slide4></label>
+	  </div>
+	  <div class="slider-dot-control">
+	    <label for=slide1></label>
+	    <label for=slide2></label>
+	    <label for=slide3></label>
+	    <label for=slide4></label>
+	  </div>
+	</div>
+</section>
+<style>
+   body {
+    background: #333; 
+    color: darkorange; 
+   }
+  </style>
+  
+<script>
+  $( function() {
+    $( "#sortable" ).sortable();
+  } );
+  </script>
+</head>
+<body>
+	
+
+
+ 
+  
+ <h2><p>Соба́ка — домашнее животное, одно из наиболее популярных животных-компаньонов. Домашняя собака была описана как самостоятельный биологический вид Canis familiaris Линнеем в 1758 году; в настоящее время данное научное название признаётся многими авторитетными организациями, такими как Американское общество маммалогов. Соба́ка (лат. Canis familiaris, или Canis lupus familiaris) — домашнее животное, одно из наиболее популярных (наряду с кошкой) животных-компаньонов.
+
+Домашняя собака была описана как самостоятельный биологический вид Canis familiaris Линнеем в 1758 году; в настоящее время данное научное название признаётся многими авторитетными организациями, такими как Американское общество маммалогов. Некоторые источники (например, ITIS и MSW3) придерживаются альтернативной классификации, в рамках которой собака считается подвидом волка (Canis lupus familiaris). В русскоязычных письменных источниках слово «собака» в значении соответствующего животного встречается по крайней мере с 1475 года (начиная с грамоты князя Андрея Васильевича Меньшого Кириллову монастырю).
+
+С зоологической точки зрения, собака — плацентарное млекопитающее отряда хищных семейства псовых.
+
+Собаки известны своими способностями к обучению, любовью к игре, социальным поведением. Выведены специальные породы собак, предназначенные для различных целей: охоты, охраны, тяги гужевого транспорта и другого, а также декоративные породы (например, болонка, пудель).
+
+При необходимости разграничения по полу употребляются термины (самец) и (самка); в обиходной речи — «пёс» и «собака» соответственно. Детёныши собаки называются щенками или кутятами.</p></h2>
+
+
+<img src="https://image.freepik.com/free-photo/young-man-jogging-in-park-with-golden-retriever-dog_156881-4020.jpg" height="900" width="1400">
+<h3>Когда вы заводите домашнего питомца, вы приобритаете себе друга. А с друзями нужно проводить как можно больше времени, почаще гeляйте с ним и играйте</h3>
+
+<div id="draggable" class="ui-widget-content">
+  <img src="https://images.ua.prom.st/1485711344_w640_h640_1485711344.jpg" height="100" width="100">
+</div>
+ 
+<div id="droppable" class="ui-widget-header">
+  <img src="https://cdnimg.rg.ru/i/photogallery/2019/12/06/8085b70e8b6927e/8085b70e8b6927e1575618884.jpg" height="200" width="200">
+</div>
+</body>
+</html>
